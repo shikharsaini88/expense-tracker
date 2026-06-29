@@ -1,19 +1,12 @@
-## TODO - Income/Expense + Smooth UI (MongoDB)
+# TODO - Expense Tracker (Phase 1)
 
-- [x] Implement MongoDB `Income` model and Mongoose schema in `index.js`
-
-- [x] Add Express API routes: `GET/POST/DELETE /api/incomes`
-
-
-- [x] Update React `App.jsx` to fetch incomes and expenses separately
-
-
-- [x] Add Income/Expense tabbed UI (two sections + two forms + two lists)
-
-- [x] Add smooth transition when switching tabs
-
-- [x] Add totals (Total Income / Total Expense / Net)
-
-- [ ] Run backend/frontend and verify CRUD + switching
+## Phase 1 (Must Have)
+- [ ] Add monthly spending chart (Chart.js) for expenses (filtered by category/date)
+- [ ] Add category + date filtering UI and wire it to chart + transactions list
+- [ ] Add category handling with suggested categories (Food, Travel, Shopping, Bills, Salary)
+- [ ] Add export for filtered transactions to Excel (.xlsx) and PDF
+- [ ] Add dark/light mode toggle (make styling dynamic)
+- [x] Install required frontend dependencies (package.json updated; npm install blocked by PowerShell execution policy)
+- [ ] Run and verify: npm run dev, ensure all Phase 1 features work
 
 
